@@ -1,0 +1,4 @@
+<input type="text" class="form-control" [(ngModel)]="userName">
+
+<button [disabled]="!userName" (click)="onDeleteUserName()">Click me</button>
+<p>{{userName}}</p>
