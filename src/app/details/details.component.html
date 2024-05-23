@@ -1,0 +1,6 @@
+<p>details works!</p>
+
+<button (click)="onToggleDisplay()">Display details</button>
+<p *ngIf="isClicked">Here is the page details</p>
+<div *ngFor="let buttonClicksItem of buttonClicks">{{buttonClicksItem}}
+</div>
